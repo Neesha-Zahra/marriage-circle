@@ -1485,3 +1485,63 @@ body {
     margin: 0 auto;
   }
 }
+
+
+/* ---------- VERY SMALL PHONES (max-width: 380px) ---------- */
+@media (max-width: 380px) {
+  .hero-text h1 {
+    font-size: 1.5rem;
+  }
+
+  .hero-text p {
+    font-size: 0.9rem;
+  }
+
+  .cta-btn {
+    font-size: 0.85rem;
+    padding: 12px 18px;
+  }
+
+  .why-choose h2,
+  .how-preview h2,
+  .about-intro h1,
+  .how-intro h1,
+  .services-intro h1,
+  .profiles-intro h1,
+  .overseas-intro h1,
+  .contact-intro h1 {
+    font-size: 1.5rem;
+  }
+
+  .stat h3 {
+    font-size: 1.3rem;
+  }
+
+  .stat p {
+    font-size: 0.8rem;
+  }
+
+  .step,
+  .point,
+  .handle-point {
+    padding: 20px 15px;
+  }
+
+  .services-list,
+  .contact-details {
+    padding: 0 10px;
+  }
+
+  .service-card,
+  .contact-card {
+    padding: 18px;
+  }
+
+  .profiles-list {
+    padding: 0 10px;
+  }
+
+  .profile-card {
+    padding: 18px;
+  }
+}
