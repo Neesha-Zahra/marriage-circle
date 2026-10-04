@@ -283,6 +283,7 @@ body {
 }
 
 /* ---------- MOBILE (max-width: 480px) ---------- */
+/* ---------- MOBILE (max-width: 480px) ---------- */
 @media (max-width: 480px) {
   .hero {
     padding: 30px 12px;
@@ -290,6 +291,11 @@ body {
 
   .hero h1 {
     font-size: 1.6rem;
+  }
+
+  .hero-image img {
+    height: 220px;
+    object-position: center 40%;
   }
 
   .stats-bar {
