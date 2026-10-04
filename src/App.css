@@ -82,6 +82,19 @@ body {
   padding: 0 10px;
 }
 
+/* 
+.cta-btn {
+  background-color: var(--accent-maroon);
+  color: #f0e0c1;
+  border: none;
+  padding: 12px 28px;
+  border-radius: 30px;
+  font-size: 1rem;
+  cursor: pointer;
+  max-width: 90%;
+  text-decoration: none;
+  display: inline-block;
+} */
 
 .cta-btn {
   background-color: var(--accent-maroon);
@@ -94,8 +107,13 @@ body {
   max-width: 90%;
   text-decoration: none;
   display: inline-block;
+  white-space: nowrap;
 }
-
+.cta-btn {
+  width: auto;
+  padding: 14px 24px;
+  font-size: 0.95rem;
+}
 .cta-btn:hover {
   background-color: var(--accent-gold);
 }
