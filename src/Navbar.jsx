@@ -34,27 +34,4 @@ function Navbar() {
 }
 
 export default Navbar;
-// import { Link } from "react-router-dom";
-// import logo from "./logo.png";
 
-// function Navbar() {
-//   return (
-//     <nav className="navbar">
-//       <div className="logo">
-//         <img src={logo} alt="logo" />
-//       </div>
-//       <div className="nav-links">
-//         <Link to="/">Home</Link>
-//         <Link to="/about">About</Link>
-//         <Link to="/how-it-works">How It Works</Link>
-//         <Link to="/services">Our Services</Link>
-//         <Link to="/profiles">Profiles</Link>
-//         <Link to="/overseas">Overseas Pakistanis</Link>
-//         <Link to="/contact">Contact</Link>
-//       </div>
-//       <button className="consultation-btn">Book a Consultation</button>
-//     </nav>
-//   );
-// }
-
-// export default Navbar;
