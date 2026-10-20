@@ -134,7 +134,7 @@ function Footer() {
 
           <p>
             <FaPhoneAlt className="footer-icon" />
-            {923159030278} | {923204628336}
+            {+923159030278} | {+923204628336}
           </p>
 
           <p>
