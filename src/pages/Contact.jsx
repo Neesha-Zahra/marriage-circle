@@ -6,7 +6,7 @@ function Contact() {
       <section className="contact-intro">
         <h1>Contact Us</h1>
         <p>
-          We believe the best conversations happen directly — not through
+          We believe the best conversations happen directly not through
           forms. Reach out to us via phone, WhatsApp, or email, and we'll
           personally guide you through the next steps.
         </p>
@@ -17,23 +17,24 @@ function Contact() {
           <div className="contact-icon-circle"><FaPhoneAlt /></div>
           <h3>Call Us</h3>
           <p>Speak with us directly for any questions.</p>
-          <a href="tel:+923001234567" className="contact-link">
-            +92 300 1234567
+          <a href="tel:+923159030278" className="contact-link">
+            +92 315 903 0278
+          </a>
+          <a href="tel:+923204628336" className="contact-link">
+            +92 320 462 8336
           </a>
         </div>
 
         <div className="contact-card">
           <div className="contact-icon-circle"><FaWhatsapp /></div>
           <h3>WhatsApp</h3>
-          <p>Send us a message anytime — quick and easy.</p>
-          <a
-            href="https://wa.me/923001234567?text=Hi%2C%20I%27m%20interested%20in%20your%20matchmaking%20services"
-            className="contact-link"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Chat on WhatsApp
-          </a>
+          <p>Send us a message anytime quick and easy.</p>
+          <a className="contact-links" href="https://wa.me/923159030278" target="_blank" rel="noopener noreferrer">
+                    Contact Us on WhatsApp-1
+                </a>
+                <a className="contact-links" href="https://wa.me/923204628336" target="_blank" rel="noopener noreferrer">
+                    Contact Us on WhatsApp-2
+                </a>
         </div>
 
         <div className="contact-card">
@@ -49,7 +50,7 @@ function Contact() {
           <div className="contact-icon-circle"><FaClock /></div>
           <h3>Office Hours</h3>
           <p>We're available:</p>
-          <p className="contact-link">Mon - Sat, 10 AM - 7 PM</p>
+          <p className="contact-link">Mon - Sat, 10 AM - 10 PM</p>
         </div>
       </section>
     </div>

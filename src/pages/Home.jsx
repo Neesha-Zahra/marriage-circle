@@ -8,12 +8,13 @@ function Home() {
         <div className="home">
             <section className="hero">
                 <div className="hero-text">
-                    <h1>Where Compatible Hearts Meet</h1>
-                    <p>
+                    <h1><Typewriter text="Where Compatible Hearts Meet" /></h1>
+                    <p><Typewriter text="Trusted matchmaking rooted in family values, confidentiality, and genuine human care connecting hearts across Pakistan and beyond." /></p>
+                    {/* <p>
                         Trusted matchmaking rooted in family values, confidentiality,
                         and genuine human care connecting hearts across Pakistan
                         and beyond.
-                    </p>
+                    </p> */}
                    <Link to="/contact" className="cta-btn">Book a Consultation</Link>
                 </div>
                 <div className="hero-image">
