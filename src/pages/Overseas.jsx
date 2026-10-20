@@ -53,9 +53,12 @@ function Overseas() {
                     Reach out to us directly and we'll walk you through the entire
                     process, no matter where in the world you're based.
                 </p>
-                <button className="cta-btn" href="https://wa.me/923159030278" target="_blank" rel="noopener noreferrer">
-                    Contact Us on WhatsApp
-                </button>
+                <a className="cta-btn" href="https://wa.me/923159030278" target="_blank" rel="noopener noreferrer">
+                    Contact Us on WhatsApp-1
+                </a>
+                <a className="cta-btn" href="https://wa.me/923204628336" target="_blank" rel="noopener noreferrer">
+                    Contact Us on WhatsApp-2
+                </a>
             </section>
         </div>
     )
