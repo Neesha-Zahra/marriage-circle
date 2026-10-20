@@ -40,12 +40,17 @@ function Overseas() {
                     <span className="country-tag">🇸🇦 Saudi Arabia</span>
                     <span className="country-tag">🇦🇪 UAE</span>
                     <span className="country-tag">🇦🇺 Australia</span>
+                    <span className="country-tag">🇨🇳 China</span>
+                    <span className="country-tag">🇰🇷 South Korea</span>
+                    <span className="country-tag">🇩🇪 Germany</span>
+                    <span className="country-tag">🇶🇦 Qatar</span>
+                    <span className="country-tag">🇴🇲 Oman</span>
                 </div>
             </section>
             <section className="overseas-cta">
                 <h2>Ready to Start Your Search From Abroad?</h2>
                 <p>
-                    Reach out to us directly we'll walk you through the entire
+                    Reach out to us directly and we'll walk you through the entire
                     process, no matter where in the world you're based.
                 </p>
                 <button className="cta-btn">Contact Us on WhatsApp</button>
