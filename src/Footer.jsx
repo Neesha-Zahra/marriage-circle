@@ -80,7 +80,8 @@ function Footer() {
               <div className="social-options">
                 {whatsappNumber1 && (
                   <a
-                    href={`https://wa.me/${whatsappNumber1.replace("https://wa.me/923159030278", "")}`}
+                    // href={`https://wa.me/${whatsappNumber1.replace("https://wa.me/923159030278", "")}`}
+                    href={"https://wa.me/923159030278"}
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -90,7 +91,8 @@ function Footer() {
 
                 {whatsappNumber2 && (
                   <a
-                    href={`https://wa.me/${whatsappNumber2.replace("https://wa.me/923204628336", "")}`}
+                    // href={`https://wa.me/${whatsappNumber2.replace("https://wa.me/923204628336", "")}`}
+                    href={"https://wa.me/923204628336"}
                     target="_blank"
                     rel="noopener noreferrer"
                   >
