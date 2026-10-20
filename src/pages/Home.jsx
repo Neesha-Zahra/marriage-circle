@@ -97,7 +97,12 @@ function Home() {
             <section className="home-cta">
                 <h2><Typewriter text="Ready to find your match?" /></h2>
                 <p>Talk to us directly no forms, just a conversation.</p>
-                <button className="cta-btn">Contact Us on WhatsApp</button>
+                <a className="cta-btn" href="https://wa.me/923159030278" target="_blank" rel="noopener noreferrer">
+                    Contact Us on WhatsApp-1
+                </a>
+                <a className="cta-btn" href="https://wa.me/923204628336" target="_blank" rel="noopener noreferrer">
+                    Contact Us on WhatsApp-2
+                </a>
             </section>
         </div>
     );

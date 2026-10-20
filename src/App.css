@@ -96,6 +96,7 @@ body {
   display: inline-block;
   white-space: nowrap;
   width: auto;
+  margin: 4px;
 }
 
 .cta-btn:hover {
@@ -1136,6 +1137,7 @@ body {
 }
 
 .overseas-cta .cta-btn {
+  margin: 4px;
   background-color: #fff;
   color: #8b6f3d;
 }
