@@ -7,7 +7,7 @@ function Contact() {
         <h1>Contact Us</h1>
         <p>
           We believe the best conversations happen directly not through
-          forms. Reach out to us via phone, WhatsApp, or email, and we'll
+          forms. Reach out to us via phone or on WhatsApp and we'll
           personally guide you through the next steps.
         </p>
       </section>
@@ -37,14 +37,14 @@ function Contact() {
                 </a>
         </div>
 
-        <div className="contact-card">
+        {/* <div className="contact-card">
           <div className="contact-icon-circle"><FaEnvelope /></div>
           <h3>Email</h3>
           <p>Prefer email? Write to us anytime.</p>
           <a href="mailto:info@themarriagecircle.com" className="contact-link">
             info@themarriagecircle.com
           </a>
-        </div>
+        </div> */}
 
         <div className="contact-card">
           <div className="contact-icon-circle"><FaClock /></div>

@@ -41,7 +41,7 @@ function Footer() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Profile
+                   Profile
                   </a>
                 )}
 
@@ -85,7 +85,7 @@ function Footer() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Number 1
+                    Contact number 1
                   </a>
                 )}
 
@@ -96,7 +96,7 @@ function Footer() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Number 2
+                    Contact number 2
                   </a>
                 )}
 
@@ -139,10 +139,10 @@ function Footer() {
             {+923159030278} | {+923204628336}
           </p>
 
-          <p>
+          {/* <p>
             <FaEnvelope className="footer-icon" />
             info@themarriagecircle.com
-          </p>
+          </p> */}
 
           <p>
             <FaClock className="footer-icon" />

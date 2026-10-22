@@ -10,11 +10,6 @@ function Home() {
                 <div className="hero-text">
                     <h1><Typewriter text="Where Compatible Hearts Meet" /></h1>
                     <p><Typewriter text="Trusted matchmaking rooted in family values, confidentiality, and genuine human care connecting hearts across Pakistan and beyond." /></p>
-                    {/* <p>
-                        Trusted matchmaking rooted in family values, confidentiality,
-                        and genuine human care connecting hearts across Pakistan
-                        and beyond.
-                    </p> */}
                    <Link to="/contact" className="cta-btn">Book a Consultation</Link>
                 </div>
                 <div className="hero-image">
@@ -38,7 +33,7 @@ function Home() {
                     <div className="why-card">
                         <FaHandsHelping className="why-icon" />
                         <h4>Personal Guidance</h4>
-                        <p>Real people guide you — not an app, not an algorithm.</p>
+                        <p>Real people guide you not an app, not an algorithm.</p>
                     </div>
                 </div>
             </section>
@@ -60,8 +55,15 @@ function Home() {
                 <div className="stat">
                     <FaMapMarkerAlt className="stat-icon" />
                     <div>
-                        <h3><Counter target={5} /></h3>
+                        <h3><Counter target={10} /></h3>
                         <p>Cities Covered</p>
+                    </div>
+                </div>
+                <div className="stat">
+                    <FaMapMarkerAlt className="stat-icon" />
+                    <div>
+                        <h3><Counter target={7} /></h3>
+                        <p>Countries Covered</p>
                     </div>
                 </div>
             </section>
@@ -85,7 +87,7 @@ function Home() {
                         <span className="step-number">3</span>
                         <FaUsers className="step-icon" />
                         <h4>Introduction</h4>
-                        <p>We arrange a respectful meeting between families.</p>
+                        <p>Family arrange a respectful meeting.</p>
                     </div>
                     <div className="step">
                         <span className="step-number">4</span>
@@ -99,10 +101,10 @@ function Home() {
                 <h2><Typewriter text="Ready to find your match?" /></h2>
                 <p>Talk to us directly no forms, just a conversation.</p>
                 <a className="cta-btn" href="https://wa.me/923159030278" target="_blank" rel="noopener noreferrer">
-                    Contact Us on WhatsApp-1
+                    Contact Us on Number-1
                 </a>
                 <a className="cta-btn" href="https://wa.me/923204628336" target="_blank" rel="noopener noreferrer">
-                    Contact Us on WhatsApp-2
+                    Contact Us on Number-2
                 </a>
             </section>
         </div>

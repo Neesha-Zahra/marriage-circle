@@ -16,18 +16,18 @@ function Overseas() {
                 <div className="handle-points">
                     <div className="handle-point">
                         <FaVideo className="handle-icon" />
-                        <h4>Video Call Consultations</h4>
-                        <p>Meet and discuss preferences over video call, at a time that suits your schedule abroad.</p>
+                        <h4>Family Discussions</h4>
+                        <p>Families connect to discuss their preferences, share their perspectives, and arrange calls at a mutually convenient time.</p>
                     </div>
                     <div className="handle-point">
                         <FaPlaneDeparture className="handle-icon" />
-                        <h4>Visit-Timing Coordination</h4>
-                        <p>We help plan introductions and meetings around your visits back home.</p>
+                        <h4>Meetings & Introductions</h4>
+                        <p>Once both families are comfortable, they coordinate visits and arrange in-person meetings according to their own schedules.</p>
                     </div>
                     <div className="handle-point">
                         <FaUsers className="handle-icon" />
-                        <h4>Family Involvement</h4>
-                        <p>We keep families in the loop throughout, even when you're miles away.</p>
+                        <h4>Family-Led Decisions</h4>
+                        <p>We bring compatible individuals and families together. From the initial conversations to personal meetings, families take the lead in building a connection at their own pace.</p>
                     </div>
                 </div>
             </section>

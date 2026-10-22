@@ -112,6 +112,40 @@ function Profiles() {
           <p><FaMapMarkerAlt className="profile-icon" /> Karachi</p>
           <span className="profile-tag">Shia</span>
         </div>
+
+        <div className="profile-card">
+          <div className="profile-avatar male-avatar"><FaUserTie /></div>
+          <h3>Profile 010</h3>
+          <p className="profile-gender"><FaMars className="gender-icon male" /> Male</p>
+          <p className="profile-age">30-35 years · 6'1"</p>
+          <p><FaGraduationCap className="profile-icon" /> MBA Graduate</p>
+          <p><FaBriefcase className="profile-icon" /> Business Owner</p>
+          <p><FaMapMarkerAlt className="profile-icon" /> Iran</p>
+          <span className="profile-tag">Shia</span>
+        </div>
+
+        <div className="profile-card">
+          <div className="profile-avatar female-avatar"><FaFemale /></div>
+          <h3>Profile 011</h3>
+          <p className="profile-gender"><FaVenus className="gender-icon female" /> Female</p>
+          <p className="profile-age">25-30 years · 5'8"</p>
+          <p><FaGraduationCap className="profile-icon" /> LLB </p>
+          <p><FaBriefcase className="profile-icon" /> Lawyer</p>
+          <p><FaMapMarkerAlt className="profile-icon" /> China</p>
+          <span className="profile-tag">Sunni</span>
+        </div>
+
+        <div className="profile-card">
+          <div className="profile-avatar female-avatar"><FaFemale /></div>
+          <h3>Profile 011</h3>
+          <p className="profile-gender"><FaVenus className="gender-icon female" /> Female</p>
+          <p className="profile-age">24-28 years · 5'6"</p>
+          <p><FaGraduationCap className="profile-icon" /> BSIT </p>
+          <p><FaBriefcase className="profile-icon" /> Software Engineer</p>
+          <p><FaMapMarkerAlt className="profile-icon" /> Germany</p>
+          <span className="profile-tag">Sunni</span>
+        </div>
+
       </section>
 
       <section className="profiles-note">

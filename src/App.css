@@ -806,11 +806,86 @@ body {
   line-height: 1.5;
 }
 
-.service-price {
+
+/* Service Card Layout */
+.service-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+/* Keep the service details properly spaced */
+.service-card ul {
+  margin-bottom: 20px;
+}
+
+/* Container for Both WhatsApp Buttons */
+.service-contact-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: auto;
+  padding-top: 25px;
+  width: 100%;
+}
+
+/* WhatsApp Contact Buttons */
+.service-contact-link {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 13px 18px;
+  background: #8b6b45;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: inherit;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid #8b6b45;
+  border-radius: 6px;
+  line-height: 1.6;
+  cursor: pointer;
+  transition: background-color 0.3s ease,
+              color 0.3s ease,
+              transform 0.3s ease,
+              box-shadow 0.3s ease;
+}
+
+/* Hover Effect */
+.service-contact-link:hover {
+  background: #6f5032;
+  color: #ffffff;
+  border-color: #6f5032;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.12);
+}
+
+/* Keyboard Accessibility */
+.service-contact-link:focus-visible {
+  outline: 2px solid #8b6b45;
+  outline-offset: 4px;
+}
+
+/* Mobile Responsive */
+@media (max-width: 480px) {
+  .service-contact-buttons {
+    gap: 10px;
+    padding-top: 20px;
+  }
+
+  .service-contact-link {
+    padding: 12px 14px;
+    font-size: 13px;
+  }
+}
+
+/* .service-price {
   margin-top: auto;
   font-weight: bold;
   color: var(--accent-maroon);
-}
+} */
 @media (max-width: 768px) {
   .services-list {
     grid-template-columns: 1fr;
@@ -1224,9 +1299,9 @@ body {
 
 .contact-details {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   gap: 25px;
-  max-width: 800px;
+  max-width: 500px;
   margin: 0 auto 60px;
   padding: 0 20px;
 }
@@ -1273,7 +1348,7 @@ body {
 .contact-link {
   display: inline-block;
   font-weight: bold;
-  margin: 2px; 
+  margin:4px; 
   color: var(--text-color);
   text-decoration: none;
   border: 1px solid #8b6f3d;
@@ -1284,7 +1359,7 @@ body {
 
 .contact-links {
   display: inline-block;
-  margin: 2px;
+  margin: 4px;
   font-weight: bold;
   color: var(--text-color);
   text-decoration: none;
@@ -1302,11 +1377,6 @@ body {
   background-color: #8b6f3d;
   color: #fff;
 }
-
-/* .contact-link:hover {
-  background-color: var(--accent-maroon);
-  color: #fff;
-} */
 
 @media (max-width: 600px) {
   .contact-details {

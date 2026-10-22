@@ -28,8 +28,7 @@ function HowItWorks() {
                     <span className="step-number">1</span>
                     <h3>Initial Consultation</h3>
                     <p>
-                        We start with a friendly conversation either in person or over
-                        a call to understand your preferences, values, and what
+                        We start with a friendly conversation on a call to understand your preferences, values, and what
                         you're looking for in a life partner. This helps us personalize
                         the entire matching process around your family's needs.
                     </p>
@@ -61,7 +60,7 @@ function HowItWorks() {
                     <span className="step-number">4</span>
                     <h3>Introduction & Follow-Up</h3>
                     <p>
-                        Once both families agree, we arrange a respectful introduction.
+                        Once both families agree, they themselves arrange a respectful introduction.
                         We stay in touch throughout the process, offering guidance and
                         support until families are comfortable moving forward.
                     </p>
