@@ -44,7 +44,7 @@ function About() {
                     <div className="point">
                         <FaUsers className="point-icon" />
                         <h4>Human-Led Matching</h4>
-                        <p>Real people match you — not an algorithm or an app.</p>
+                        <p>Real people match you not an algorithm or an app.</p>
                     </div>
                 </div>
             </section>
